@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--每条note的形状 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--shadow-->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/lvBackground"></solid>
+            <corners android:radius="6dp"></corners>
+        </shape>
+    </item>
+    <item android:bottom="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="?attr/tvBackground"></solid>
+            <corners android:radius="6dp"></corners>
+        </shape>
+    </item>
+</layer-list>
