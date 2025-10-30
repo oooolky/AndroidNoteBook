@@ -1,0 +1,17 @@
+# 忽略 VS 临时文件
+.vs/
+*.ipch
+*.obj
+*.exe
+*.pdb
+*.idb
+*.aps
+*.user
+*.suo
+*.log
+*.tmp
+*.cache
+*.ilk
+*.tlog
+*.o
+*.pch
